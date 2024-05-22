@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" bg-slate-300">
+    <header class="shadow sticky z-50 top-0 bg-black md:bg-blue-500" id="header">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <span class=" flex text-4xl font-bold text-white ">MEET ME</span>
+            <!-- Menu for large screens -->
+            <nav class="hidden md:flex ">
+                <a href="#about" class=" md:mx-4 lg:mx-6 text-white hover:text-gray-500">ABOUT</a>
+                <a href="#education" class="  md:mx-4 lg:mx-6 text-white hover:text-gray-500">EDUCATION</a>
+                <a href="#skills" class="  md:mx-4 lg:mx-6 text-white hover:text-gray-500">SKILLS</a>
+                <a href="#experience" class="  md:mx-4 lg:mx-6 text-white hover:text-gray-500">EXPERIENCE</a>
+                <a href="#contacts" class="  md:mx-4 lg:mx-6 text-white hover:text-gray-500">CONTACTS</a>
+            </nav>
+            <!-- Dropdown toggle button for small screens -->
+            <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Dropdown menu for small screens -->
+        <nav id="dropdown-menu" class="hidden md:hidden  bg-white shadow-md">
+            <a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">ABOUT</a>
+            <a href="#education" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">EDUCATION</a>
+            <a href="#skills" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">SKILLS</a>
+            <a href="#experience" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">EXPERIENCE</a>
+            <a href="#contacts" class="block px-4 py-2 text-gray-700 hover:bg-gray-200">CONTACTS</a>
+        </nav>
+    </header>
+    <div class=" lg:h-screen bg-gradient-to-br from-blue-500 to-blue-100 ">
+        
+        <div class="">
+            <div class=" lg:mx-40  border-solid border-slate-100 border-8 bg-slate-400" id="about" >
+                <ul class=" lg:flex m-5">
+                    <li> <img class="" width="500px" height="516px" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379004.jpg&fm=jpg" alt=""></li>
+                    <li class=" lg:m-20">
+                        <h1 class=" font-mono text-lg my-4 ">HELLO EVERYBODY, I AM</h1>
+                        <h1 class=" text-5xl  my-3">ABHISHEK </h1>
+                        <h1 class=" text-5xl ">KUMAR </h1>
+                        <h1 class=" text-xl font-semibold  my-5">SOFTWARE DEVELOPER / DATA ANALYST</h1>
+                        <p class=" text-lg font-light   my-8">    I am a , Enthusiastic tech fresher with skills in <br> 
+                            C++,Python,Javascript , Web development, Data analytics <br> Eager to learn 
+                            and contribute in dynamic environments, <br>
+                            bringing a fresh  perspective and problem-solving abilities <br> to drive innovation.
+                        </p>
+                        <a href="" class=" flex  my-3 ">
+                            <svg class="h-8 w-8 text-sky-500 mr-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="5" width="16" height="16" rx="2" />  <line x1="16" y1="3" x2="16" y2="7" />  <line x1="8" y1="3" x2="8" y2="7" />  <line x1="4" y1="11" x2="20" y2="11" />  <line x1="11" y1="15" x2="12" y2="15" />  <line x1="12" y1="15" x2="12" y2="18" /></svg>
+                            28 December, 2001
+                        </a>
+                        <a href="tel:+919871238967" class=" flex my-3 ">
+                            <svg class="h-8 w-8 text-sky-500 mr-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                            9871238967
+                        </a>
+                        <a href="mailto:realabhi321@gmail.com" class=" flex  my-3">
+                            <svg class="h-8 w-8 text-sky-500 mr-8"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />  <polyline points="22,6 12,13 2,6" /></svg>
+                            realabhi321@gmail.com
+                        </a>
+                        <a href="" class=" flex my-3 ">
+                            <svg class="h-8 w-8 text-sky-500 mr-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                              </svg>
+                            Darbhanga, Bihar
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-10 lg:mt-60 " id="education">
+        <div class=" md:mx-20 lg:mx-40">
+            <h1 class=" text-5xl flex justify-center font-bold">EDUCATION</h1>
+            <div class=" my-7 bg-gray-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">MATRICULATION</div>
+                <div class=" my-3 ">
+                    
+                    <div class=" md:text-xl font-semibold text-black flex justify-center">K.C.M.F School Muzaffarpur</div>
+                    <div class=" text-xl font-semibold text-red-800 flex justify-center">9.2 cgpa</div>
+                </div>
+            </div>
+            <div class=" my-7 bg-yellow-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">INTERMEDIATE</div>
+                <div class=" my-3 ">
+                    
+                    <div class=" md:text-xl font-semibold text-black flex justify-center">PRIMUS PUBLIC SCHOOL Muzaffarpur</div>
+                    <div class=" text-xl font-semibold text-red-800 flex justify-center">82.8 %</div>
+                </div>
+            </div>
+            <div class=" my-7 bg-red-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">BACHELOR'S</div>
+                <div class=" my-3 ">
+                    
+                    <div class=" md:text-xl font-semibold text-black flex justify-center">NATIONAL INSTITUTE OF TECHNOLOGY PATNA</div>
+                    <div class=" md:text-lg font-semibold text-black flex justify-center">COMPUTER SCIENCE AND ENGINEERING</div>
+                    <div class=" text-xl font-semibold text-red-800 flex justify-center">8.12 cgpa</div>
+                </div>
+            </div>
+                
+            
+        </div>
+    </div>
+    <div class=" lg:h-screen" id="skills">
+        <div class=" mx-5 py-4 my-28">
+            
+
+            <h1 class=" text-5xl flex justify-center font-bold">SKILLS</h1>
+            <div class="gap-8 sm:grid sm:grid-cols-2 mt-20">
+                <div>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">DSA</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">C/CPP</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">JAVASCRIPT</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">REACT</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 90%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">9.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">EXPRESS</dt>
+                        <dd class="flex items-center">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 70%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">7.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">DJANGO</dt>
+                        <dd class="flex items-center">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">NODE</dt>
+                        <dd class="flex items-center">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 70%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">7.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">TAILWINDCSS</dt>
+                        <dd class="flex items-center">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 60%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">6.0</span>
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">PYTHON</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 70%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">7.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">MYSQL</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 90%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">9.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">MACHINE LEARNING</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 50%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">5.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">PROGRAMMING</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 90%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">9.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">DATA ANALYSIS</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">COMMUNICATION</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="text-xl font-bold text-red-700">GIT/GITHUB</dt>
+                        <dd class="flex items-center mb-3">
+                            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 me-2">
+                                <div class="bg-blue-600 h-2.5 rounded dark:bg-blue-500" style="width: 80%"></div>
+                            </div>
+                            <span class="text-xl font-bold text-red-700">8.0</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class=" lg:h-screen" id="experience">
+        <div >
+            <h1 class=" text-5xl flex justify-center font-bold">EXPERIENCE</h1>
+            <div class=" my-7 bg-gray-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">BACKEND INTERN at INNOVATE</div>
+                <div class=" my-2 ">
+                    <p class="px-2 md:px-20 md:text-xl font-semibold text-black flex justify-center">Worked on REST API for word search, built a real-time chat app with Django channels, integrated APIs with frontend, contributed to user-focused software development, and documented the project.</p>
+                    
+                    
+                </div>
+            </div>
+            <div class=" my-7 bg-gray-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">PERSONAL PROJECT 1</div>
+                <div class=" text-2xl font-bold text-black flex justify-center">HOSTEL MANAGEMENT OF NIT PATNA</div>
+                <div class=" my-2 ">
+                    <p class="px-2 md:px-20 md:text-xl font-semibold text-black flex justify-center">I designed a hostel management system using ReactJs, JavaScript, ExpressJs, and MongoDB. This project streamlined administrative tasks, improved communication, and provided residents with an intuitive platform for easy access to hostel information.</p>
+                    
+                    
+                </div>
+            </div>
+            <div class=" my-7 bg-gray-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">PERSONAL PROJECT 2</div>
+                <div class=" text-2xl font-bold text-black flex justify-center">SQL INJECTION DETECTION</div>
+                <div class=" my-2 ">
+                    <p class="px-2 md:px-20 md:text-xl font-semibold text-black flex justify-center"> I developed an SQL injection detection system using BoW, TF-IDF, and Word2Vec representations with XGBoost, logistic regression, and SVM classifiers. This project achieved high accuracy, enhancing web application security and showcasing proficiency in feature engineering and model tuning.</p>
+                    
+                    
+                </div>
+            </div>
+            <div class=" my-7 bg-gray-200">
+                <div class=" text-2xl font-bold text-black flex justify-center">PERSONAL PROJECT 3</div>
+                <div class=" text-2xl font-bold text-black flex justify-center">A Subset Feature Elimination Mechanism for Intrusion Detection System</div>
+                <div class=" my-2 ">
+                    <p class="px-2 md:px-20 md:text-xl font-semibold text-black flex justify-center"> I developed an intrusion detection system using Python, scikit-learn, and RFE with decision trees. This approach improved detection accuracy by effectively selecting key features from the NSL-KDD dataset.</p>
+                    
+                    
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    <div class="lg:h-screen mt-10 " id="contacts">
+        <div class=" md:mx-20 lg:mx-40">
+            <h1 class=" text-5xl flex justify-center font-bold">CONTACTS</h1>
+            <div class="mt-10 md:m-20">
+                
+                <a href="tel:+919871238967" class=" flex my-5  ">
+                    <svg class="h-8 w-8 text-orange-500 mr-2 lg:mr-8"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
+                    9871238967
+                </a>
+                <a href="mailto:realabhi321@gmail.com" class=" flex  my-5 ">
+                    <svg class="h-8 w-8 text-violet-500 mr-2 lg:mr-8"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />  <polyline points="22,6 12,13 2,6" /></svg>
+                    realabhi321@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/abhishek-kumar-058247216/" class=" flex  my-5 ">
+                    <svg class="h-8 w-8 text-blue-500 mr-2 lg:mr-8"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
+                    linkedin.com/in/abhishek-kumar-058247216/
+                </a>
+                
+                <a href="" class=" flex my-5  ">
+                    <svg class="h-8 w-8 text-sky-500 mr-2 lg:mr-8"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                    </svg>
+                    Darbhanga, Bihar,847104
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var toggleButton = document.getElementById('menu-toggle');
+            var menu = document.getElementById('dropdown-menu');
+    
+            toggleButton.addEventListener('click', function (e) {
+                menu.classList.toggle('hidden');
+                e.stopPropagation(); // Prevents the click event from bubbling up to the document
+            });
+    
+            document.addEventListener('click', function (e) {
+                if (!menu.contains(e.target) && !toggleButton.contains(e.target)) {
+                    menu.classList.add('hidden');
+                }
+            });
+    
+            menu.addEventListener('click', function (e) {
+                e.stopPropagation(); // Prevents clicks inside the menu from closing it
+            });
+    
+            var menuLinks = menu.querySelectorAll('a');
+            menuLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    menu.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
